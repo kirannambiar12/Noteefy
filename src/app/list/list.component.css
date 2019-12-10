@@ -1,0 +1,31 @@
+.store{
+display: inline;
+    
+}
+
+
+
+.del{
+    padding-left: 5%;
+    padding-right: 10%;
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chckbox{
+    float: right;
+    margin-right: 10%;
+    
+}
+
+input[type=checkbox] {
+cursor: pointer;
+    -webkit-transform: scale(1.5); 
+   }
+
+
+   .co7:hover{
+       background-color: yellowgreen;
+   }
+   

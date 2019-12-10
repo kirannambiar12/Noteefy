@@ -1,0 +1,61 @@
+
+.strt{
+    background-color: steelblue;
+    position:fixed;
+ top:0px;
+ left:0px;
+ width:100%;
+ height:100%;
+    
+}
+.sm {
+    color: yellow;
+    padding-left: 34%;
+}
+
+.sm1{
+    color: yellow;
+    padding-left: 40%;
+}
+
+.strt1{
+margin-left: 50%;
+margin-top: 10%;
+
+}
+
+.strt2{
+    float: right;
+}
+
+.cb{
+padding-left: 10px;
+}
+
+.signup{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.wid{
+    width: 53%;
+    display: inline;
+    float: right;
+}
+
+.edtxt{
+    padding-right: 20%;
+}
+
+.iconn{
+    height: 60%;
+    padding-top: 30%;
+    padding-left: 30%;
+}
+
+.ex{
+    color: #24CD0A;
+   margin-left: auto;
+   margin-right: auto;
+}
+

@@ -1,0 +1,34 @@
+<div class="card co0">
+        <div class="card-header co1">
+            
+            <label for="" class="co4"> <h5> Search : </h5></label>  <input type="text" placeholder="Search for the list" class="form-control co3">
+        
+        </div>
+        </div>
+        
+        
+        <div class="card co5">
+            
+                    <div class="form-group co6">
+                            <label for="comment">Add Lists:</label>
+                            <textarea [(ngModel)] = "adtxt" class="form-control"  id="comment"  placeholder="Add lists here.."></textarea>
+                            
+                            <br>                      
+                            
+        
+                          <button (click)= "pushitem()" type="submit" class="co7"> <b> SUBMIT </b></button>
+                          
+        </div>
+        <div *ngFor = "let i of txt; let ind = index" class="store">
+          <hr>
+         <h5 class="store "> {{i}} </h5>
+          <input type="checkbox" class="chckbox" >
+          <button (click)="deleteList(ind)" type="button" class="close del" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button> 
+
+
+        </div>
+        </div>
+        
+        

@@ -1,0 +1,83 @@
+<div class="card co0">
+<div class="card-header co1">
+    
+    <label for="" class="co4"> <h5> Search : </h5></label>  <input type="text" placeholder="Search for the text" class="form-control co3">
+
+</div>
+</div>
+
+
+<div class="card co5">
+    
+    
+            <div class="form-group co6">
+                    <label for="comment">Add Notes:</label>
+                    <textarea [(ngModel)]="addnote" class="form-control" rows="5" id="notes"></textarea>
+                    
+                    <br>
+                   Add Image : <input [(ngModel)]="addURL" type= "file"  id="file">
+                    <br>
+                    <br>
+                    <span  class="input-group-text"> @Enter Url : &nbsp; <input type="url" [(ngModel)]="addImage" id="url" class="form-control"></span>
+                <br>
+                  <button type="submit" class="co7" (click)="pushit()"> <b> SUBMIT </b></button>
+
+                  <br><br>
+                  
+               
+                
+
+
+
+
+ </div>
+        <div class="card" >
+                <h3 class="head">Notes :</h3>
+                <div class="card-body store" *ngFor = "let e of note; let ind = index">
+                    
+                        <button (click)="deleteNote(ind)" type="button" class="close del" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button> 
+                        <h5 > {{e}} </h5>
+                    </div>
+        </div>
+        
+<div class="card ">
+        <h3 class="head">Url :</h3>
+            <div class="card-body" *ngFor = "let w of URL; let ind = index" >
+               
+                    <button (click)="deleteURL(ind)" type="button" class="close del" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button> 
+                    <h5 > {{w}} </h5>
+            </div>
+        </div>
+        
+        <div class="card ">
+                <h3 class="head">Images :</h3>
+                
+                    <div class="card-body last " id="imagePreview" *ngFor = "let r of Image; let ind = index" >
+                            <button (click)="deleteImage(ind)" type="button" class="close del" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button> 
+                    </div>
+            
+            </div>
+        </div>     
+               
+            
+             
+             
+
+           
+                    
+                     
+                       
+                   
+        
+           
+
+            
+            
+      
+

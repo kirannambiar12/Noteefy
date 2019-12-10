@@ -1,0 +1,37 @@
+.input-group-text{
+    width: 70%;
+   
+}
+
+
+    
+    
+    
+    .del{
+        padding-left: 5%;
+        padding-right: 10%;
+        float: left;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .co7:hover{
+        background-color: yellowgreen;
+    }
+
+   
+
+   .head{
+
+    font-family: Luminari, fantasy;
+    padding-left: 5%;
+   
+   }
+
+   .last{
+       
+      
+       height: 35%;
+   }
+
+   

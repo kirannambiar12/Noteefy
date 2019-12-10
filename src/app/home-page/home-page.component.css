@@ -1,0 +1,97 @@
+.one{
+    background-color: #EDE900 ;
+    
+}
+
+.mrq{
+    color: tomato;
+    font-weight: bolder;
+}
+
+#imgs{
+    max-height: 80px;
+    padding-left: 25px;
+}
+
+.head{
+    font-family: OCR A Std, monospace;
+}
+
+.nt{
+    padding-left: 45px;
+    padding-top: 5px;
+    font-family: Luminari, fantasy;
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+
+.slogo{
+    max-width: 25px;
+    max-height: 25px;
+    
+}
+
+.divlogo{
+    
+    display: inline;
+    padding: 5px;
+    float: right;
+    
+    
+    
+}
+
+
+
+.col2{
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+
+
+.col3{
+    padding: 20px;
+    float: right;
+    
+}
+
+
+
+
+.main{
+    
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+
+.co{
+    padding-top: 10px;
+    
+    
+}
+    .cb{
+        padding-bottom: 70%;
+    }
+
+    .nn{
+        width: 120%;
+    }
+
+    .co1{
+        padding-top: 10px;
+        margin-left: 10px;
+        max-width: 20%;
+       
+    }
+
+    .txt{
+        display: inline;
+        padding-left: 20%;
+    }
+
+    .anch{
+        text-decoration: none;
+    }

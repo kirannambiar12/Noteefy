@@ -1,0 +1,61 @@
+<div class="conatiner-fluid">
+    <div class="row one">
+        <div class="col-md-4" >
+      <a href="home">  <img src="./assets/Images/icon1.png" alt="no image" id="imgs"></a>
+        <h5 class="nt">Noteefy</h5>
+    </div>
+
+    <div class="col-md-4 col2">
+<h3 class="head">Welcome to Noteefy</h3>
+<small><b> Make your own notes and list </b></small>
+    </div>
+
+    <div class="col-md-4 col3">
+        <div class="main">
+        <div class="divlogo">
+           <a href="https://www.facebook.com/" target="new"> <img src="./assets/Images/fb.png" alt="no image" class="slogo"></a>
+        </div>
+        <div class="divlogo">
+         <a href="https://www.instagram.com/" target="new">   <img src="./assets/Images/ig.png" alt="no image" class="slogo"></a>
+        </div>
+    
+    <br>
+        <div class="divlogo">
+           <a href="https://www.linkedin.com/company/cubereum/about/"target="new"> <img src="./assets/Images/in.png" alt="no image" class="slogo"></a>
+        </div>
+        <div class="divlogo">
+         <a href="https://twitter.com/login?lang=en" target="new">   <img src="./assets/Images/twt.png" alt="no image" class="slogo"></a>
+        </div>
+   
+    </div>
+</div>
+    </div>
+   
+   
+    <div class="row two">
+        <div class="col-md-4 co1" >
+<div class="card">
+    <div class="card-header">
+        <h4> Options</h4>
+    </div>
+    <div class="card-body"><a routerLink="notes" class="anch">
+            <i class="fa fa-sticky-note fa-2x" aria-hidden="true"></i> <h5 class="txt">Notes</h5></a>
+        <hr>
+        <a routerLink="list" class="anch"> 
+        <i class="fa fa-list fa-2x" aria-hidden="true"></i>   <h5 class="txt">Lists</h5> </a>
+        <hr>
+        <a routerLink="map" class="anch"> 
+                <i class="fa fa-globe fa-2x" aria-hidden="true"></i>  <h5 class="txt">Maps</h5> </a>
+                <hr>
+    </div>
+</div>
+        </div>
+        <div class="col-md co">
+                <router-outlet></router-outlet>
+            </div>
+
+    </div>
+
+    
+    
+</div>
